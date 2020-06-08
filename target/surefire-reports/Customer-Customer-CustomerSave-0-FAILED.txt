@@ -1,0 +1,119 @@
+Status: FAILED
+Time Taken: 1393
+Size: 1340
+Timestamp: Thu Jun 04 12:52:21 IST 2020
+TestStep: CustomerSave
+
+----------------- Messages ------------------------------
+[Response SLA] Response did not meet SLA 1378/1000
+
+----------------- Properties ------------------------------
+Endpoint: http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: Authorization : bearer f0rf13pxtxp7mftwc23rq6e52yvmi5um
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : soap.upskills.in
+Accept-Encoding : gzip,deflate
+Content-Length : 1405
+Content-Type : application/soap+xml;charset=UTF-8;action="customerCustomerRepositoryV1Save"
+
+
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:customerCustomerRepositoryV1SaveRequest>
+         <customer>
+            <email>puja294.1@gmail.com</email>
+            <firstname>Puja</firstname>
+            <lastname>Joshi</lastname>
+            <dob>1989-09-30</dob>
+            <addresses>
+               <item>
+                  <region>
+                     <regionCode>KA</regionCode>
+                     <region>Karnataka</region>
+                  </region>
+                  <countryId>IN</countryId>
+                  <street>
+                     <item>#55, 1 st Main Road</item>
+                  </street>
+                  <telephone>+91 9876543210</telephone>
+                  <postcode>560023</postcode>
+                  <city>Bengaluru</city>
+                  <firstname>Puja</firstname>
+                  <lastname>Joshi</lastname>
+                  <defaultShipping>true</defaultShipping>
+                  <defaultBilling>true</defaultBilling>
+               </item>
+            </addresses>
+         </customer>
+      </def:customerCustomerRepositoryV1SaveRequest>
+   </soap:Body>
+</soap:Envelope>
+
+---------------- Response --------------------------
+Response Headers: X-UA-Compatible : IE=edge
+Cache-Control : no-store, no-cache, must-revalidate
+Server : LiteSpeed
+Connection : Keep-Alive
+Set-Cookie : PHPSESSID=efa5ef743d1100337d07dd2b74546dd8; expires=Thu, 04-Jun-2020 08:22:20 GMT; Max-Age=3600; path=/; domain=soap.upskills.in; HttpOnly
+Expires : Thu, 19 Nov 1981 08:52:00 GMT
+Pragma : no-cache
+#status# : HTTP/1.1 200 OK
+Content-Length : 1340
+Date : Thu, 04 Jun 2020 07:22:21 GMT
+X-Powered-By : PHP/7.2.29
+Content-Type : application/soap+xml; charset=utf-8
+
+
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:ns1="http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1">
+   <env:Body>
+      <ns1:customerCustomerRepositoryV1SaveResponse>
+         <result>
+            <id>2217</id>
+            <groupId>1</groupId>
+            <defaultBilling>1710</defaultBilling>
+            <defaultShipping>1710</defaultShipping>
+            <createdAt>2020-06-04 07:22:20</createdAt>
+            <updatedAt>2020-06-04 07:22:21</updatedAt>
+            <createdIn>Default Store View</createdIn>
+            <dob>1989-09-30</dob>
+            <email>puja294.1@gmail.com</email>
+            <firstname>Puja</firstname>
+            <lastname>Joshi</lastname>
+            <storeId>1</storeId>
+            <websiteId>1</websiteId>
+            <addresses>
+               <item>
+                  <id>1710</id>
+                  <customerId>2217</customerId>
+                  <region>
+                     <regionCode>Karnataka</regionCode>
+                     <region>Karnataka</region>
+                     <regionId>0</regionId>
+                  </region>
+                  <regionId>0</regionId>
+                  <countryId>IN</countryId>
+                  <street>
+                     <item>#55, 1 st Main Road</item>
+                  </street>
+                  <telephone>+91 9876543210</telephone>
+                  <postcode>560023</postcode>
+                  <city>Bengaluru</city>
+                  <firstname>Puja</firstname>
+                  <lastname>Joshi</lastname>
+                  <defaultShipping>true</defaultShipping>
+                  <defaultBilling>true</defaultBilling>
+               </item>
+            </addresses>
+            <disableAutoGroupChange>0</disableAutoGroupChange>
+            <extensionAttributes>
+               <isSubscribed>false</isSubscribed>
+            </extensionAttributes>
+         </result>
+      </ns1:customerCustomerRepositoryV1SaveResponse>
+   </env:Body>
+</env:Envelope>

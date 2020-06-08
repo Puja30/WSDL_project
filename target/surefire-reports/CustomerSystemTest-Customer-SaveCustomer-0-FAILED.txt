@@ -1,0 +1,24 @@
+Status: FAILED
+Time Taken: 1630
+Size: 0
+Timestamp: Thu Jun 04 12:52:21 IST 2020
+TestStep: SaveCustomer
+Error:Assertion failed: 
+
+assert runner.results.size()==6
+       |      |       |     |
+       |      |       2     false
+       |      [com.eviware.soapui.impl.wsdl.teststeps.WsdlTestStepResult@fc7ef, com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStepResult@ad69d4]
+       com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner@997072
+
+
+----------------- Messages ------------------------------
+Assertion failed: 
+
+assert runner.results.size()==6
+       |      |       |     |
+       |      |       2     false
+       |      [com.eviware.soapui.impl.wsdl.teststeps.WsdlTestStepResult@fc7ef, com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStepResult@ad69d4]
+       com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner@997072
+
+error at line: 31

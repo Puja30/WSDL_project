@@ -1,0 +1,140 @@
+2020-06-04 12:49:58,499 INFO  [log] <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:customerCustomerRepositoryV1SaveRequest>
+         <customer>
+           <email>${CustomerDetails#email}</email>
+                  <firstname>Puja</firstname>
+                  <lastname>Joshi</lastname>
+                  <dob>1989-09-30</dob>
+                  <addresses>
+                     <item>
+                        <region>
+                           <regionCode>KA</regionCode>
+                           <region>Karnataka</region>
+                        </region>
+                        <countryId>IN</countryId>
+                        <street>
+                           <item>#55, 1 st Main Road</item>
+                        </street>
+                        <telephone>+91 9876543210</telephone>
+                        <postcode>560023</postcode>
+                        <city>Bengaluru</city>
+                        <firstname>Puja</firstname>
+                        <lastname>Joshi</lastname>
+                        <defaultShipping>true</defaultShipping>
+                        <defaultBilling>true</defaultBilling>
+                     </item>
+                  </addresses>
+         </customer>
+      </def:customerCustomerRepositoryV1SaveRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-06-04 12:49:58,531 INFO  [log] The current region code is KA
+2020-06-04 12:49:58,531 INFO  [log] You are in KA, please proceed with Signup
+2020-06-04 12:50:05,932 INFO  [log] number of test case executed are : 6
+2020-06-04 12:51:23,658 INFO  [log] <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:customerCustomerRepositoryV1SaveRequest>
+         <customer>
+           <email>${CustomerDetails#email}</email>
+                  <firstname>Puja</firstname>
+                  <lastname>Joshi</lastname>
+                  <dob>1989-09-30</dob>
+                  <addresses>
+                     <item>
+                        <region>
+                           <regionCode>KA</regionCode>
+                           <region>Karnataka</region>
+                        </region>
+                        <countryId>IN</countryId>
+                        <street>
+                           <item>#55, 1 st Main Road</item>
+                        </street>
+                        <telephone>+91 9876543210</telephone>
+                        <postcode>560023</postcode>
+                        <city>Bengaluru</city>
+                        <firstname>Puja</firstname>
+                        <lastname>Joshi</lastname>
+                        <defaultShipping>true</defaultShipping>
+                        <defaultBilling>true</defaultBilling>
+                     </item>
+                  </addresses>
+         </customer>
+      </def:customerCustomerRepositoryV1SaveRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-06-04 12:51:23,697 INFO  [log] The current region code is KA
+2020-06-04 12:51:23,697 INFO  [log] You are in KA, please proceed with Signup
+2020-06-04 12:51:30,514 INFO  [log] number of test case executed are : 6
+2020-06-04 12:52:21,414 INFO  [log] <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:customerCustomerRepositoryV1SaveRequest>
+         <customer>
+           <email>${CustomerDetails#email}</email>
+                  <firstname>Puja</firstname>
+                  <lastname>Joshi</lastname>
+                  <dob>1989-09-30</dob>
+                  <addresses>
+                     <item>
+                        <region>
+                           <regionCode>KA</regionCode>
+                           <region>Karnataka</region>
+                        </region>
+                        <countryId>IN</countryId>
+                        <street>
+                           <item>#55, 1 st Main Road</item>
+                        </street>
+                        <telephone>+91 9876543210</telephone>
+                        <postcode>560023</postcode>
+                        <city>Bengaluru</city>
+                        <firstname>Puja</firstname>
+                        <lastname>Joshi</lastname>
+                        <defaultShipping>true</defaultShipping>
+                        <defaultBilling>true</defaultBilling>
+                     </item>
+                  </addresses>
+         </customer>
+      </def:customerCustomerRepositoryV1SaveRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-06-04 12:52:21,438 INFO  [log] The current region code is KA
+2020-06-04 12:52:21,439 INFO  [log] You are in KA, please proceed with Signup
+2020-06-04 12:52:22,855 INFO  [log] number of test case executed are : 2
+2020-06-04 12:53:54,867 INFO  [log] <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:def="http://soap.upskills.in/soap/default?services=customerCustomerRepositoryV1">
+   <soap:Header/>
+   <soap:Body>
+      <def:customerCustomerRepositoryV1SaveRequest>
+         <customer>
+           <email>${CustomerDetails#email}</email>
+                  <firstname>Puja</firstname>
+                  <lastname>Joshi</lastname>
+                  <dob>1989-09-30</dob>
+                  <addresses>
+                     <item>
+                        <region>
+                           <regionCode>KA</regionCode>
+                           <region>Karnataka</region>
+                        </region>
+                        <countryId>IN</countryId>
+                        <street>
+                           <item>#55, 1 st Main Road</item>
+                        </street>
+                        <telephone>+91 9876543210</telephone>
+                        <postcode>560023</postcode>
+                        <city>Bengaluru</city>
+                        <firstname>Puja</firstname>
+                        <lastname>Joshi</lastname>
+                        <defaultShipping>true</defaultShipping>
+                        <defaultBilling>true</defaultBilling>
+                     </item>
+                  </addresses>
+         </customer>
+      </def:customerCustomerRepositoryV1SaveRequest>
+   </soap:Body>
+</soap:Envelope>
+2020-06-04 12:53:54,898 INFO  [log] The current region code is KA
+2020-06-04 12:53:54,899 INFO  [log] You are in KA, please proceed with Signup
+2020-06-04 12:54:01,553 INFO  [log] number of test case executed are : 6
